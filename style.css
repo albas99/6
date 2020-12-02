@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+form{
+    width: 100%;
+    margin: 2rem 3rem;
+}
+
+.row{
+    width: 70%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.field{
+    width: 100%;
+    flex: 1;
+    margin-left: 1rem;
+}
+.field select{
+    width: 100%;
+}
+
+.label #days #telephone{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.day-row{
+    width: 100%;
+    display: flex;
+}
+
+.days{
+    margin-left: 1rem;
+}
+
+.day-label{
+    display: block;
+}
+
+#phone{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#submit{
+    width: 10%;
+    margin: 2rem 5rem;
+}

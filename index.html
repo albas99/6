@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return checkPhone()">
+        <div class="row">
+            <label for="category" class="label">Category:</label>
+            <div class="field">
+                <select name="category" id="category" onchange="changeCategory()">
+                    <option value="education">Education</option>
+                    <option value="entertainment">Entertainment</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <label for="subcategory" class="label">Subcategory:</label>
+            <div class="field">
+                <select name="subcategory" id="subcategory">
+                    <option value="school">School</option>
+                    <option value="college">College</option>
+                    <option value="university">University</option>
+                </select>
+            </div>
+        </div>
+        <div class="day-row">
+            <div id="days">Working Days: </div>
+            <div class="days">
+                <label for="day" class="day-label">Mon</label>
+                <input type="checkbox" name="day" id="day">
+            </div>
+            <div class="days">
+                <label for="day" class="day-label">Tue</label>
+                <input type="checkbox" name="day" id="day">
+            </div>
+            <div class="days">
+                <label for="day" class="day-label">Wed</label>
+                <input type="checkbox" name="day" id="day">
+            </div>
+            <div class="days">
+                <label for="day" class="day-label">Thurs</label>
+                <input type="checkbox" name="day" id="day">
+            </div>
+            <div class="days">
+                <label for="day" class="day-label">Fri</label>
+                <input type="checkbox" name="day" id="day">
+            </div>
+            <div class="days">
+                <label for="day" class="day-label">Sat</label>
+                <input type="checkbox" name="day" id="day">
+            </div>
+            <div class="days"rem>
+                <label for="day" class="day-label">Sun</label>
+                <input type="checkbox" name="day" id="day">
+            </div>
+        </div>
+        <div class="phone">
+            <label for="phone" id="telephone">Phone: </label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <button type="submit" value="submit" id="submit">Submit</button>
+    </form>
+</body>
+<script src="app.js"></script>
+</html>
